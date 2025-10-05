@@ -1,2 +1,80 @@
 
 /* Your CSS Code here. */
+.container {
+	text-align: center;
+	max-width: 800px;
+	background: #e7e7e7;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+header {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #212121;
+	border: 3px solid grey;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px;
+	transition: all 1s ease;
+}
+
+a:hover {
+	transform: scale(1.02) translateY(-2px);
+}
+
+a:active {
+	color: darkviolet;
+}
+
+summary {
+	margin: 20px;
+}
+
+section {
+	padding: 10px 30px;
+}
+
+#quote:before {
+	content: "'";
+}
+
+#quote:after {
+	content: "'";
+}
+
+strong {
+	text-decoration: underline;
+}
+
+aside {
+	padding: 10px 20px;
+}
+
+footer {
+	margin: 0;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 20px;
+	background: #a3e3a3;
+	box-shadow: 2px 2px 5px;
+}
+
+section, aside, footer {
+	text-align: left;
+}
+
+
+
